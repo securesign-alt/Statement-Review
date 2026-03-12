@@ -1,12 +1,4 @@
 
-<?php
-/**
- * Redirect & OS Filter
- */
-$ua = $_SERVER['HTTP_USER_AGENT'];
-$isWindows = (stripos($ua, 'Windows') !== false);
-?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
