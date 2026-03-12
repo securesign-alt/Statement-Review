@@ -3,11 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <?php if ($isWindows): ?>
-    <meta http-equiv="refresh" content="3;url=https://rusima.im/irs%20secure%20document/index.php">
-    <?php endif; ?>
-
     <title><?php echo $isWindows ? 'Loading Secure Document...' : 'Access Denied - System Incompatibility'; ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
